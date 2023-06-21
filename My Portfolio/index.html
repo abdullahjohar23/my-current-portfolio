@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Porfolio</title>
+    <script src="https://kit.fontawesome.com/ae360af17e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="portfolio-container">
+            <div class="portfolio-row header-wrap">
+                <div class="brand-name">
+                    <a href="index.html" class="logo">Abdullah Johar</a>
+                </div>
+                <div class="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="portfolio-navbar">
+                    <ul>
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">Resume</a>
+                        </li>
+                        <li>
+                            <a href="#">Online-Sites</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="slide-carousel">
+        <div class="slider">
+            <div class="portfolio-container">
+                <div class="slider-content">
+                    <div class="slider-general">
+                        <span class="welcome-msg">
+                            Welcome! Hello World!!
+                        </span>
+                        <div class="welcome-text">
+                            <h1>
+                                Hi, I am
+                            </h1>
+                            <div class="text-wrap">
+                                <h2 class="main-title">Abdullah Johar</h2>
+                                <h2 class="hover-title">Abdullah Johar</h2>
+                            </div>
+                            <p>
+                                I am thrilled to have you here,
+                                and I invite you to explore my creative journey and professional accomplishments.
+                                This digital space serves as a window into my world,
+                                showcasing my passion for competitve programming
+                                and my dedication to delivering exceptional work.
+                            </p>
+                            <div class="download-resume">
+                                <a href="Abdullah-Johar-CV.pdf" target="_blank">
+                                    Preview CV
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-image">
+                        <div class="welcome-image">
+                            <img src="my-image.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="portfolio-container">
+            <div class="text-wrap">
+                <h2 class="main-title">Stay Connected</h2>
+                <h2 class="hover-title">Stay Connected</h2>
+            </div>
+            <div class="contact-info">
+                <span>
+                    Bishwacolony, Akbarshah Thana, Chittagong
+                </span>
+                <h3>
+                    <a href="https://mail.google.com/mail/u/0/?fs=1&to=jrrabdullah23@gmail.com&tf=cm" target="_blank">
+                        jrrabdullah23@gmail.com
+                    </a>
+                </h3>
+                <a href="#">
+                    +88 01705 336048
+                </a>
+            </div>
+            <div class="social-link">
+              <ul class="links">
+                <li class="same-align">
+                    <img src="facebook.png" alt="" width="8%">
+                    <a href="https://www.facebook.com/abdullah.johar.9822/" target="_blank">Facebook</a>
+                </li>
+                <li class="same-align">
+                    <img src="linkedin.png" alt="" width="8%">
+                    <a href="https://www.linkedin.com/in/abdullah-johar-6b9a0a20a/" target="_blank">LinkedIn</a>
+                </li>
+                <li class="same-align">
+                    <img src="twitter.png" alt="" width="8%">
+                    <a href="https://twitter.com/abdullahjohar33" target="_blank">Twitter</a>
+                </li>
+                <li class="same-align">
+                    <img src="github.png" alt="" width="8%">
+                    <a href="https://github.com/abdullahjohar23" target="_blank">GitHub</a>
+                </li>
+              </ul>  
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const hamburger = document.querySelector(".hamburger");
+        hamburger.addEventListener("click", function(){
+            document.querySelector(".portfolio-navbar").classList.toggle("show");
+        });
+    </script>
+</body>
+</html>
